@@ -103,11 +103,16 @@ button {
     border: 1px;
 }
     
+.qa {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
 
 .quote {
     width: 700px;
     flex-wrap: wrap;
-    font: italic;
+    font-style: italic;
     font-weight: 100;
     font-size: 30px;
     color: #1F2937;
@@ -115,6 +120,8 @@ button {
 
 .author {
     font-weight: 700;
+    display: flex;   
+    align-self: flex-end;
 }
 
 .fourth {
